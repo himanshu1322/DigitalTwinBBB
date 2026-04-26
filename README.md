@@ -3,8 +3,13 @@
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 🧠 Overview
-Q-MoLE is a specialized neural architecture designed to predict the Blood-Brain Barrier (BBB) permeability of small molecules. It utilizes **1.58-bit Ternary Weights** (weights restricted to $\{-1, 0, 1\}$) and a **Mixture of Experts (MoE)** routing mechanism to achieve high-fidelity predictions with extreme hardware efficiency.
+## 🧠 Overview: Molecular AI for In-Silico Laboratory Screening
+This project introduces an innovative **Molecular AI** framework designed to function as a "Digital Twin" of the Blood-Brain Barrier (BBB). Traditionally, determining if a new drug can reach the brain requires expensive, time-consuming wet-lab experiments. 
+
+Our solution provides a high-speed, **In-Silico Laboratory** alternative. By utilizing a specialized **Mixture of Experts (MoE)** architecture, the model simulates the chemical logic of the BBB, allowing researchers to screen thousands of compounds in seconds. 
+
+### 🔬 Innovation: The 1.58-bit Advantage
+While most molecular models require high-end supercomputers, this project implements **1.58-bit Ternary Quantization**. This allows complex pharmacological reasoning to be performed with extreme hardware efficiency, effectively bringing "Lab-Grade" intelligence to low-power edge devices.
 
 This research project demonstrates that high-precision pharmacological modeling is possible even under extreme quantization, making it suitable for edge-deployment in diagnostic medical devices.
 
