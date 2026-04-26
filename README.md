@@ -30,7 +30,7 @@ This research project demonstrates that high-precision pharmacological modeling 
 ## 📊 Visualizing the Latent Space
 The model effectively clusters molecules based on their "Chemical Logic." Below is a t-SNE projection of the 2055-dimensional feature space as interpreted by the 16 Experts:
 
-![Latent Space Projection](visuals/cluster_map.png)
+![Performance Dashboard](visuals/performance_dashboard.png)
 
 ## 🧪 Quick Start
 1. Install dependencies: `pip install torch rdkit pandas matplotlib scikit-learn`
